@@ -1,1 +1,3 @@
-web: gunicorn _dev_hopes.wsgi --log-file -
+web: python manage.py collectstatic --no-input \
+    && python manage.py migrate \
+    && gunicorn bandkamp.wsgi --log-level debug
