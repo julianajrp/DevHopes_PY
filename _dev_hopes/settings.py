@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-xpsx-q_6uragy&gj8tbo0zqj+ozfge($f=im=47)o*-6($_s_2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["dev-hopes-webb.onrender.com/"]
+ALLOWED_HOSTS = ["dev-hopes-webb.onrender.com"]
 
 
 # Application definition
