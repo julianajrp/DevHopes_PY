@@ -1,14 +1,15 @@
-#Cloning the Repository
-##Open the terminal and navigate to the directory where you want to clone the repository.
+# Cloning the Repository
+## Open the terminal and navigate to the directory where you want to clone the repository.
 
 - Run the following command:
 
 ```shell
 git clone https://github.com/[username]/[repository-name].git
+```
 Replace [username] with the actual username of the repository owner and [repository-name] with the actual name of the repository.
 
-#Installing Requirements
-##Navigate to the repository directory using the terminal.
+# Installing Requirements
+## Navigate to the repository directory using the terminal.
 
 - Run the following command:
 
@@ -17,8 +18,8 @@ pip install -r requirements.txt
 ```
 This will install all the necessary packages listed in the requirements.txt file.
 
-#Making Migrations
-##Navigate to the repository directory using the terminal.
+# Making Migrations
+## Navigate to the repository directory using the terminal.
 
 - Run the following command:
 
@@ -27,8 +28,8 @@ python manage.py makemigrations
 ```
 This will generate the migrations for the Django models.
 
-#Running Migrations
-##Navigate to the repository directory using the terminal.
+# Running Migrations
+## Navigate to the repository directory using the terminal.
 
 - Run the following command:
 
@@ -37,8 +38,8 @@ python manage.py migrate
 ```
 This will apply the migrations to the database.
 
-#Starting the Server
-##Navigate to the repository directory using the terminal.
+# Starting the Server
+## Navigate to the repository directory using the terminal.
 
 - Run the following command:
 
